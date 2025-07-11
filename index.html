@@ -1,8 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>INVERSIONES M&J</title>
-        <link rel="stylesheet" href="estilos/estilos.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Navegación Principal -->
+    <nav class="main-nav">
+        <!-- logo -->
+        <header class="main-nav__logo">
+            <div class="marco-imagen">
+                <img src="imagenes/gerbdevSinfondo.png" alt="logo de Gio" class="main-nav--logo__imagen">
+            </div>
+            <h1>La taberna de Gio</h1>
+        </header>
+        <!-- Checkbox oculto para el toggle -->
+        <input type="checkbox" id="menu-toggle" class="main-nav__toggle">
+        <!-- Label que actúa como botón hamburguesa -->
+        <label for="menu-toggle" class="main-nav__toggle-label">
+            <div class="main-nav__hamburger">
+                <span class="main-nav__hamburger-line"></span>
+                <span class="main-nav__hamburger-line"></span>
+                <span class="main-nav__hamburger-line"></span>
+            </div>
+        </label>
+        <!-- Menú de navegación -->
+        <ul class="main-nav__menu">
+            <li class="main-nav__item">
+                <a href="#inicio" class="main-nav__link main-nav__link--active">Inicio</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#inicio" class="main-nav__link ">Productos</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#inicio" class="main-nav__link ">Servicios</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#inicio" class="main-nav__link ">Acerca de </a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#inicio" class="main-nav__link ">Blog</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#contacto" class="main-nav__link main-nav__link--button">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
